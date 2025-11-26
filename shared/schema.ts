@@ -42,8 +42,8 @@ export interface Product {
   category: "leafy" | "vegetable" | "spice";
   image: string;
   benefits: string[];
-  // price per bunch in Kenyan shillings
-  pricePerBunch: number;
+  // price per bunch in Kenyan shillings (optional)
+  pricePerBunch?: number;
   // optional price per kilogram in Kenyan shillings
   pricePerKg?: number;
 }
@@ -107,8 +107,7 @@ export const products: Product[] = [
     category: "vegetable",
     image: "butternut",
     benefits: ["Low glycemic", "High in potassium", "Creamy texture"],
-    pricePerKg: 150,
-    pricePerBunch: 0
+    pricePerKg: 150
   },
   {
     id: "red-chilli",
@@ -118,7 +117,6 @@ export const products: Product[] = [
     category: "spice",
     image: "redchilli",
     benefits: ["Metabolism boost", "Pain relief", "Rich in Vitamin C"],
-    pricePerBunch: 0,
     pricePerKg: 120
   },
   {
@@ -129,8 +127,7 @@ export const products: Product[] = [
     category: "spice",
     image: "greenchilli",
     benefits: ["Fresh flavor", "Digestive aid", "Natural preservative"],
-    pricePerBunch: 0,
-    pricePerKg: 120
+    pricePerKg: 100
   },
   {
     id: "cabbage",
