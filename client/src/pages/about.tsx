@@ -179,22 +179,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-16 bg-primary">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4" data-testid="text-visit-title">
-            Visit Our Farm
-          </h2>
-          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto" data-testid="text-visit-subtitle">
-            We welcome visitors who want to see how we grow our vegetables. 
-            Contact us to arrange a farm visit.
-          </p>
-          <Link href="/contact">
-            <Button size="lg" variant="secondary" data-testid="button-visit-farm">
-              Get in Touch
-            </Button>
-          </Link>
-        </div>
-      </section>
+      {/* Visit our farm section removed per request */}
     </div>
   );
 }
