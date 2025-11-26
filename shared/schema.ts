@@ -130,7 +130,7 @@ export const products: Product[] = [
     image: "greenchilli",
     benefits: ["Fresh flavor", "Digestive aid", "Natural preservative"],
     pricePerBunch: 0,
-    pricePerKg: 1040
+    pricePerKg: 120
   },
   {
     id: "cabbage",
