@@ -91,6 +91,15 @@ export const products: Product[] = [
     benefits: ["Nutrient dense", "Affordable", "Year-round availability"]
   },
   {
+    id: "thousand-headed-sukuma-wiki",
+    name: "Thousand headed Sukuma Wiki",
+    localName: "Sukuma Wiki",
+    description: "An abundant variety of Sukuma Wiki with multiple heads providing tender, nutritious leaves. Perfect for stews and quick sautés.",
+    category: "leafy",
+    image: "thousand-headed-sukuma-wiki",
+    benefits: ["Tenders leaves", "High yield", "Rich in vitamins"]
+  },
+  {
     id: "pumpkin",
     name: "Pumpkins",
     localName: "Malenge",
