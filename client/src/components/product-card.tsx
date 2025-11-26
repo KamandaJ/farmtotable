@@ -22,7 +22,7 @@ export const productImages: Record<string, string> = {
   nightshade: nightshadeImage,
   cowpeas: cowpeasImage,
   swisschard: swisschardImage,
-  Sukumawiki: thousandHeadedImage,
+  sukumawiki: thousandHeadedImage,
   pumpkin: pumpkinImage,
   butternut: butternutImage,
   redchilli: redChilliImage,

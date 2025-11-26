@@ -87,7 +87,7 @@ export const products: Product[] = [
     localName: "Sukuma Wiki",
     description: "Kenya's most beloved vegetable. Nutritious, affordable, and delicious. The backbone of East African cuisine.",
     category: "leafy",
-    image: "thousandHeadedImage",
+    image: "sukumawiki",
     benefits: ["Nutrient dense", "Affordable", "Year-round availability"]
   },
   {
@@ -114,7 +114,7 @@ export const products: Product[] = [
     localName: "Pilipili Nyekundu",
     description: "Fiery red chillies adding heat and flavor to any dish. Naturally sun-dried for maximum potency and shelf life.",
     category: "spice",
-    image: "red-chilli",
+    image: "redchilli",
     benefits: ["Metabolism boost", "Pain relief", "Rich in Vitamin C"]
   },
   {
@@ -123,7 +123,7 @@ export const products: Product[] = [
     localName: "Pilipili Kijani",
     description: "Fresh green chillies with a bright, sharp heat. Perfect for fresh salsas, stir-fries, and traditional dishes.",
     category: "spice",
-    image: "green-chilli",
+    image: "greenchilli",
     benefits: ["Fresh flavor", "Digestive aid", "Natural preservative"]
   },
   {
