@@ -60,7 +60,7 @@ export function Footer() {
               <li className="text-sm text-muted-foreground">Black Nightshade (Managu)</li>
               <li className="text-sm text-muted-foreground">Cowpeas (Kunde)</li>
               <li className="text-sm text-muted-foreground">Sukuma Wiki</li>
-              <li className="text-sm text-muted-foreground">Pumpkins & Butternut</li>
+              <li className="text-sm text-muted-foreground">Butternut</li>
             </ul>
           </div>
 

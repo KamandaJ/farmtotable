@@ -90,7 +90,7 @@ export function Navigation() {
                 <div className="flex items-center gap-2 mb-8">
                   <Leaf className="h-8 w-8 text-primary" />
                   <span className="font-display text-lg font-bold">
-                    Mureithi's Farm
+                    Mureithi's Farm To Table
                   </span>
                 </div>
                 <nav className="flex flex-col gap-2">

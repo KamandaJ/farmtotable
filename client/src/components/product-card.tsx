@@ -8,7 +8,7 @@ import heroImage from "@assets/generated_images/farm_hero_vegetables_spread.png"
 import amaranthImage from "@assets/generated_images/fresh_amaranth_terere_leaves.png";
 import nightshadeImage from "@assets/generated_images/black_nightshade_managu_leaves.png";
 import cowpeasImage from "@assets/generated_images/cowpea_kunde_leaves.png";
-import swisschardImage from "@assets/generated_images/fordhook_swiss_chard.png";
+import swisschardImage from "@assets/generated_images/swiss_chard_product_photo.png";
 import kaleImage from "@assets/generated_images/sukuma_wiki_kale.png";
 import pumpkinImage from "@assets/generated_images/fresh_farm_pumpkins.png";
 import butternutImage from "@assets/generated_images/butternut_squash.png";
