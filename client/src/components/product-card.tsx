@@ -9,8 +9,7 @@ import amaranthImage from "@assets/generated_images/fresh_amaranth_terere_leaves
 import nightshadeImage from "@assets/generated_images/managu_plant_leaves.png";
 import cowpeasImage from "@assets/generated_images/cowpeas_leaves.png";
 import swisschardImage from "@assets/generated_images/swiss_chard_product_photo.png";
-import thousandHeadedImage from "@assets/generated_images/thousand_headed_sukuma_wiki_leaves.png";
-import pumpkinImage from "@assets/generated_images/fresh_farm_pumpkins.png";
+import thousandHeadedImage from "@assets/generated_images/thousand_headed_sukuma_wiki_leaves.webp";
 import butternutImage from "@assets/generated_images/butternut_squash.png";
 import redChilliImage from "@assets/generated_images/red_cayenne_chillies.png";
 import greenChilliImage from "@assets/generated_images/green_cayenne_chillies.png";
@@ -23,7 +22,6 @@ export const productImages: Record<string, string> = {
   cowpeas: cowpeasImage,
   swisschard: swisschardImage,
   sukumawiki: thousandHeadedImage,
-  pumpkin: pumpkinImage,
   butternut: butternutImage,
   redchilli: redChilliImage,
   greenchilli: greenChilliImage,
@@ -36,6 +34,16 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   const imageUrl = productImages[product.image] || productImages.hero;
+
+  const formatKES = (value?: number) => {
+    if (value === undefined || value === null) return "";
+    try {
+      // Use Intl for proper thousands separators
+      return new Intl.NumberFormat('en-KE', { maximumFractionDigits: 0 }).format(value);
+    } catch (e) {
+      return String(value);
+    }
+  };
 
   return (
     <Card className="group overflow-visible hover-elevate transition-all duration-300" data-testid={`card-product-${product.id}`}>
@@ -56,6 +64,16 @@ export function ProductCard({ product }: ProductCardProps) {
             <p className="text-sm text-muted-foreground italic">
               {product.localName}
             </p>
+            {product.pricePerBunch !== undefined && (
+              <p className="text-sm text-foreground font-semibold mt-1" data-testid={`text-product-price-${product.id}`}>
+                Ksh {formatKES(product.pricePerBunch)} / bunch
+              </p>
+            )}
+            {product.pricePerKg !== undefined && (
+              <p className="text-xs text-muted-foreground mt-0.5" data-testid={`text-product-price-kg-${product.id}`}>
+                Ksh {formatKES(product.pricePerKg)} / kg
+              </p>
+            )}
           </div>
           <Badge 
             variant="secondary" 

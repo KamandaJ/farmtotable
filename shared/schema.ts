@@ -42,6 +42,10 @@ export interface Product {
   category: "leafy" | "vegetable" | "spice";
   image: string;
   benefits: string[];
+  // price per bunch in Kenyan shillings
+  pricePerBunch: number;
+  // optional price per kilogram in Kenyan shillings
+  pricePerKg?: number;
 }
 
 export const products: Product[] = [
@@ -52,7 +56,8 @@ export const products: Product[] = [
     description: "Nutrient-rich leafy green packed with iron, calcium, and vitamins. A traditional superfood perfect for stews and side dishes.",
     category: "leafy",
     image: "amaranth",
-    benefits: ["High in iron", "Rich in protein", "Contains antioxidants"]
+    benefits: ["High in iron", "Rich in protein", "Contains antioxidants"],
+    pricePerBunch: 50
   },
   {
     id: "nightshade",
@@ -61,7 +66,8 @@ export const products: Product[] = [
     description: "Traditional African leafy vegetable with a slightly bitter taste. Excellent source of vitamins A and C, commonly enjoyed sautéed with onions.",
     category: "leafy",
     image: "nightshade",
-    benefits: ["Rich in Vitamin A", "Immune boosting", "Traditional remedy"]
+    benefits: ["Rich in Vitamin A", "Immune boosting", "Traditional remedy"],
+    pricePerBunch: 60
   },
   {
     id: "cowpeas",
@@ -70,7 +76,8 @@ export const products: Product[] = [
     description: "Tender young leaves from the cowpea plant. Mild flavor, high in protein and fiber. Perfect complement to ugali.",
     category: "leafy",
     image: "cowpeas",
-    benefits: ["High protein", "Rich in fiber", "Sustainable crop"]
+    benefits: ["High protein", "Rich in fiber", "Sustainable crop"],
+    pricePerBunch: 60
   },
   {
     id: "swisschard",
@@ -79,7 +86,8 @@ export const products: Product[] = [
     description: "Beautiful broad leaves with colorful stalks. Mild, slightly earthy flavor. Versatile for cooking, sautéing, or adding to soups.",
     category: "leafy",
     image: "swisschard",
-    benefits: ["High in Vitamin K", "Low calorie", "Versatile cooking"]
+    benefits: ["High in Vitamin K", "Low calorie", "Versatile cooking"],
+    pricePerBunch: 65
   },
   {
     id: "kale",
@@ -88,16 +96,8 @@ export const products: Product[] = [
     description: "Kenya's most beloved vegetable. Nutritious, affordable, and delicious. The backbone of East African cuisine.",
     category: "leafy",
     image: "sukumawiki",
-    benefits: ["Nutrient dense", "Affordable", "Year-round availability"]
-  },
-  {
-    id: "pumpkin",
-    name: "Pumpkins",
-    localName: "Malenge",
-    description: "Sweet, versatile orange-fleshed pumpkins. Perfect for soups, stews, and baking. Rich in beta-carotene and fiber.",
-    category: "vegetable",
-    image: "pumpkin",
-    benefits: ["Rich in Vitamin A", "Natural sweetness", "Long shelf life"]
+    benefits: ["Nutrient dense", "Affordable", "Year-round availability"],
+    pricePerBunch: 60
   },
   {
     id: "butternut",
@@ -106,7 +106,9 @@ export const products: Product[] = [
     description: "Creamy, sweet squash with a nutty flavor. Excellent roasted, mashed, or in soups. A healthy carbohydrate source.",
     category: "vegetable",
     image: "butternut",
-    benefits: ["Low glycemic", "High in potassium", "Creamy texture"]
+    benefits: ["Low glycemic", "High in potassium", "Creamy texture"],
+    pricePerKg: 150,
+    pricePerBunch: 0
   },
   {
     id: "red-chilli",
@@ -115,7 +117,9 @@ export const products: Product[] = [
     description: "Fiery red chillies adding heat and flavor to any dish. Naturally sun-dried for maximum potency and shelf life.",
     category: "spice",
     image: "redchilli",
-    benefits: ["Metabolism boost", "Pain relief", "Rich in Vitamin C"]
+    benefits: ["Metabolism boost", "Pain relief", "Rich in Vitamin C"],
+    pricePerBunch: 250,
+    pricePerKg: 1100
   },
   {
     id: "green-chilli",
@@ -124,7 +128,9 @@ export const products: Product[] = [
     description: "Fresh green chillies with a bright, sharp heat. Perfect for fresh salsas, stir-fries, and traditional dishes.",
     category: "spice",
     image: "greenchilli",
-    benefits: ["Fresh flavor", "Digestive aid", "Natural preservative"]
+    benefits: ["Fresh flavor", "Digestive aid", "Natural preservative"],
+    pricePerBunch: 200,
+    pricePerKg: 900
   },
   {
     id: "cabbage",
@@ -133,6 +139,8 @@ export const products: Product[] = [
     description: "Crisp, crunchy cabbage heads. Excellent for salads, coleslaw, or cooking. A versatile kitchen staple.",
     category: "vegetable",
     image: "cabbage",
-    benefits: ["High in fiber", "Long storage", "Versatile use"]
+    benefits: ["High in fiber", "Long storage", "Versatile use"],
+    pricePerBunch: 60,
+    pricePerKg: 100
   }
 ];
