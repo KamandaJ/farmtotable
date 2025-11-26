@@ -118,8 +118,8 @@ export const products: Product[] = [
     category: "spice",
     image: "redchilli",
     benefits: ["Metabolism boost", "Pain relief", "Rich in Vitamin C"],
-    pricePerBunch: 250,
-    pricePerKg: 1100
+    pricePerBunch: 0,
+    pricePerKg: 120
   },
   {
     id: "green-chilli",
@@ -129,8 +129,8 @@ export const products: Product[] = [
     category: "spice",
     image: "greenchilli",
     benefits: ["Fresh flavor", "Digestive aid", "Natural preservative"],
-    pricePerBunch: 200,
-    pricePerKg: 900
+    pricePerBunch: 0,
+    pricePerKg: 1040
   },
   {
     id: "cabbage",
