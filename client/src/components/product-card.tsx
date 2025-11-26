@@ -6,11 +6,11 @@ import type { Product } from "@shared/schema";
 
 import heroImage from "@assets/generated_images/farm_hero_vegetables_spread.png";
 import amaranthImage from "@assets/generated_images/fresh_amaranth_terere_leaves.png";
-import nightshadeImage from "@assets/generated_images/managu leaves.png";
-import cowpeasImage from "@assets/generated_images/cowpeas leaves.png";
+import nightshadeImage from "@assets/generated_images/black_nightshade_managu_leaves.png";
+import cowpeasImage from "@assets/generated_images/cowpea_kunde_leaves.png";
 import swisschardImage from "@assets/generated_images/swiss_chard_product_photo.png";
 import kaleImage from "@assets/generated_images/sukuma_wiki_kale.png";
-import thousandHeadedImage from "@assets/generated_images/Thousand headed sukuma wiki leaves.webp";
+import thousandHeadedImage from "@assets/generated_images/thousand_headed_sukuma_wiki_leaves.webp";
 import pumpkinImage from "@assets/generated_images/fresh_farm_pumpkins.png";
 import butternutImage from "@assets/generated_images/butternut_squash.png";
 import redChilliImage from "@assets/generated_images/red_cayenne_chillies.png";
@@ -24,7 +24,7 @@ export const productImages: Record<string, string> = {
   cowpeas: cowpeasImage,
   swisschard: swisschardImage,
   kale: kaleImage,
-  thousandHeaded: thousandHeadedImage,
+  "thousand-headed-sukuma-wiki": thousandHeadedImage,
   pumpkin: pumpkinImage,
   butternut: butternutImage,
   "red-chilli": redChilliImage,
