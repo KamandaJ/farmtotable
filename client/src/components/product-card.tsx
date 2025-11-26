@@ -9,7 +9,7 @@ import amaranthImage from "@assets/generated_images/fresh_amaranth_terere_leaves
 import nightshadeImage from "@assets/generated_images/managu_plant_leaves.png";
 import cowpeasImage from "@assets/generated_images/cowpeas_leaves.png";
 import swisschardImage from "@assets/generated_images/swiss_chard_product_photo.png";
-import thousandHeadedImage from "@assets/generated_images/thousand_headed_sukuma_wiki_leaves.webp";
+import thousandHeadedImage from "@assets/generated_images/thousand_headed_sukuma_wiki_leaves.png";
 import butternutImage from "@assets/generated_images/butternut_squash.png";
 import redChilliImage from "@assets/generated_images/red_cayenne_chillies.png";
 import greenChilliImage from "@assets/generated_images/green_cayenne_chillies.png";
