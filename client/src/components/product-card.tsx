@@ -6,7 +6,7 @@ import type { Product } from "@shared/schema";
 
 import heroImage from "@assets/generated_images/farm_hero_vegetables_spread.png";
 import amaranthImage from "@assets/generated_images/fresh_amaranth_terere_leaves.png";
-import nightshadeImage from "@assets/generated_images/managu_leaves.png";
+import nightshadeImage from "@assets/generated_images/managu_plant_leaves.png";
 import cowpeasImage from "@assets/generated_images/cowpea_leaves.png";
 import swisschardImage from "@assets/generated_images/swiss_chard_product_photo.png";
 import kaleImage from "@assets/generated_images/sukuma_wiki_kale.png";
