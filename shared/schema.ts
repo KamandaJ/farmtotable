@@ -65,7 +65,7 @@ export const products: Product[] = [
   },
   {
     id: "cowpeas",
-    name: "Cowpea Leaves",
+    name: "Cowpeas Leaves",
     localName: "Kunde",
     description: "Tender young leaves from the cowpea plant. Mild flavor, high in protein and fiber. Perfect complement to ugali.",
     category: "leafy",
